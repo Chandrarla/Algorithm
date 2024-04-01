@@ -25,7 +25,9 @@ for i in range(N):
     elif cmd == "size":
         print(len(stack))
     elif cmd == "empty":
-        print(0 if len(stack) else 1)
+        if len(stack)==0:
+            print(1)
+        else: print(0)
     elif cmd == "top":
         if len(stack) == 0:
             print(-1)
