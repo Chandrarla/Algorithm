@@ -33,5 +33,3 @@ for s in range(5, 0, -1):
 if visited != grid:
     print(-1)
 else: print(cnt)
-
-
